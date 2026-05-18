@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.1"
+  version: "0.1.2"
 
 package:
   name: r-yr
@@ -9,14 +9,14 @@ package:
 
 source:
   url: https://github.com/y-crdt/yr/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: e858d06ab55612c6b3bce7805f5682bdd631151fec57fcf3242de3a91370cbd6
+  sha256: b515c7bd871ddf17cf2830d2e113837f271db70d5fad33aa0c90bd12f627d69c
   patches:
     - patches/0001-libdir-cargo-build-target.patch
     - patches/0001-Remove-document-step.patch
 
 build:
   skip: win
-  number: 1
+  number: 0
   dynamic_linking:
     rpaths:
       - lib/R/lib/
