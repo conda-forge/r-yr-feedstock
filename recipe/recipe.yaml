@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.4"
+  version: "0.1.5"
 
 package:
   name: r-yr
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/y-crdt/yr/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 1b87cf82c483ff1f15371fa7a3dc436e991f625c7cb4cd2c5f0f41d7a5e18399
+  sha256: 2dc6115e10f45d66cad8e0cc775e47d7bb651a0000af07a498a847cc5f3f2897
 
 build:
   number: 0
